@@ -1,0 +1,30 @@
+{
+  "name": "slf",
+  "version": "1.0.0",
+  "description": "Serversless lambda functions, with netlify, to hide keys on frontend codeto hide frontend code.",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aladin002dz/SLF.git"
+  },
+  "keywords": [
+    "serverless",
+    "netflify",
+    "lambda",
+    "functions"
+  ],
+  "author": "mahfoudh arous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aladin002dz/SLF/issues"
+  },
+  "homepage": "https://github.com/aladin002dz/SLF#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "netlify-lambda": "^1.1.1"
+  }
+}
